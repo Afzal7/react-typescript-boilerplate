@@ -6,11 +6,12 @@ import App from './App';
 import { store } from './app/store';
 
 test('renders learn react link', () => {
-	const { getByText } = render(
+	const { container, getByText } = render(
 		<Provider store={store}>
 			<App />
 		</Provider>
 	);
 
+	expect(container).toMatchSnapshot();
 	expect(getByText(/React/i)).toBeInTheDocument();
 });

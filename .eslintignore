@@ -3,3 +3,5 @@ dist
 *.css
 *.scss
 *.svg
+__snapshots__
+coverage

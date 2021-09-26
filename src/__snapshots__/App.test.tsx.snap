@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders learn react link 1`] = `
+<div>
+  <header
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed mui-fixed css-rr6y0i-MuiPaper-root-MuiAppBar-root"
+  >
+    <div
+      class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-1t29gy6-MuiToolbar-root"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 css-y17v8s-MuiTypography-root"
+      >
+        React Typescript Boilerplate
+      </h6>
+    </div>
+  </header>
+  <div
+    class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-1t29gy6-MuiToolbar-root"
+  />
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthXl css-19r6kue-MuiContainer-root"
+  >
+    <div
+      class="MuiBox-root css-1a98n9v"
+    >
+      <div
+        class="App"
+      >
+        <div
+          class="App-header"
+        >
+          <img
+            alt="logo"
+            class="App-logo"
+            src="logo.svg"
+          />
+          <div>
+            <div
+              class="row"
+            >
+              <button
+                aria-label="Decrement value"
+                class="button"
+                type="button"
+              >
+                -
+              </button>
+              <span
+                class="value"
+              >
+                0
+              </span>
+              <button
+                aria-label="Increment value"
+                class="button"
+                type="button"
+              >
+                +
+              </button>
+            </div>
+            <div
+              class="row"
+            >
+              <input
+                aria-label="Set increment amount"
+                class="textbox"
+                value="2"
+              />
+              <button
+                class="button"
+                type="button"
+              >
+                Add Amount
+              </button>
+              <button
+                class="asyncButton"
+                type="button"
+              >
+                Add Async
+              </button>
+              <button
+                class="button"
+                type="button"
+              >
+                Add If Odd
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
